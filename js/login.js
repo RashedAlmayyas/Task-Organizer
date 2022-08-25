@@ -7,7 +7,7 @@ function check(){
     let pass = document.getElementById('pass');
 
     if(email.value == storedEmail && pass.value == storedPw){
-        alert('You are logged in.');
+        window.location.replace("main.html");
     }else{
         alert('Incorrect email or Password.');
     }
