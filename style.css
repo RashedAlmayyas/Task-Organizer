@@ -1,0 +1,153 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: #f5f6fa;
+}
+
+.wrapper .sidebar {
+	background: rgb(241, 241, 241);
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 225px;
+	height: 100%;
+
+	transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wrapper .sidebar .profile img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-left: 9px;
+	margin-bottom: -8px;
+
+}
+
+.dropdown {
+
+	margin-top: 0%;
+
+}
+
+.blockquote-custom {
+	position: relative;
+	font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -40px;
+	left: 19px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* body,
+html {
+	height: 100%; */
+/* } */
+
+body {
+	background: #dfebed;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	height: 35%;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	background: #dfebed;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	height: 50%;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 50%;
+}
+
+* {
+	font-family: poppins;
+  }
+  
+  body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	background-color: #ffcb05;
+	margin-top: 72px;
+	
+  }
+  .wrapper h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #000814;
+  }
+  
+  
+ 
