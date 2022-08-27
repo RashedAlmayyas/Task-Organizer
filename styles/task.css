@@ -1,0 +1,53 @@
+#pageTitle {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header-buttons {
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+
+p {
+  width: 12rem;
+  height: 10em;
+  white-space: auto;
+  overflow: auto;
+}
+
+#card-container {
+  margin-top: 20px;
+}
+
+#modal-footer {
+  text-align: right;
+}
+/*
+#taskButton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} main
+*/

@@ -1,0 +1,55 @@
+.calender {
+  width: 12rem;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+#years {
+  width: 100%;
+  font-size: 7rem;
+  font-weight: 100;
+  color: #5b4155;
+  text-shadow: 0px 0px 4px #5b4155;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 12px #5b4155;
+  border-radius: 14px;
+  padding-left: 3px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#weekDay,
+#month {
+  float: left;
+  width: 50%;
+  color: #2e212b;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+#hourse {
+  padding-left: 4px;
+}
+#hourse,
+#minute,
+#seconds {
+  display: block;
+  width: 32%;
+  float: left;
+  color: #f5d698;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+}
+#datecontent {
+  width: 100%;
+  float: left;
+  margin: -3px 0px 0px 0px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #2e212b;
+  letter-spacing: 1px;
+}
+#date {
+  font-weight: 600;
+}
